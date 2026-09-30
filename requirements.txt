@@ -1,0 +1,14 @@
+# Direct runtime dependencies, pinned to the project's `pytorch` Conda environment.
+# For a CUDA-enabled PyTorch installation, install torch and torchvision using
+# https://pytorch.org/get-started/locally/ before running `pip install -r requirements.txt`.
+torch==1.13.1
+torchvision==0.14.1
+
+numpy==1.26.1
+scikit-learn==1.5.2
+h5py==3.12.1
+spectral==0.23.1
+
+matplotlib==3.8.2
+opencv-python==4.7.0.72
+Pillow==9.4.0

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Checkpoints and outputs
+*.pth
+*.pt
+*.npy
+checkpoints/*
+runs/*
+datasets/*
+!.gitkeep
+
+# Datasets
+*.hdf5
+*.h5
+
+# Environments
+.venv
+venv/
+ENV/
+env/
+.conda
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
